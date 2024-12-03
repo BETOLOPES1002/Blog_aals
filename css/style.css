@@ -1,0 +1,125 @@
+/* GENERAL */
+body {
+	background-color: #f0f8f4; /* Fondo verde claro */
+	color: #555; /* Texto en gris suave */
+	font-family: 'Arial', sans-serif;
+	line-height: 1.6;
+  }
+  
+  img {
+	max-width: 100%;
+	border-radius: 8px; /* Bordes suaves */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombras ligeras */
+  }
+  
+  /* BLOG PRINCIPAL */
+  .main-blog-card {
+	width: 90%;
+	margin: 20px auto;
+	background: #e6f1e3; /* Verde muy suave */
+	border-radius: 12px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombras elegantes */
+  }
+  
+  .category-aside {
+	width: 100%;
+	padding: 15px;
+	background: #c9e6d3; /* Verde menta suave */
+	color: #447d57; /* Verde oscuro suave */
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+  }
+  
+  .main-blog {
+	width: 70%;
+  }
+  
+  .aside-main {
+	width: 30%;
+	padding: 15px;
+	background: #e6f1e3; /* Verde muy suave */
+	border-radius: 12px;
+  }
+  
+  /* BOTONES Y REACCIONES */
+  .react-btns i {
+	font-size: 24px;
+	color: #555; /* Gris suave */
+  }
+  
+  .react-btns a {
+	color: #6a6a6a; /* Gris claro */
+  }
+  
+  .react-btns a:hover {
+	color: #4e9f79; /* Verde medio */
+  }
+  
+  .react-btns .like:hover {
+	color: #85c1b4; /* Verde menta */
+  }
+  
+  .react-btns .liked {
+	color: #85c1b4; /* Verde menta */
+  }
+  
+  .comments .comment span {
+	color: #4e9f79; /* Verde medio */
+	font-weight: bold;
+  }
+  
+  /* SECCIONES DE ADMIN */
+  .section-1 {
+	width: 100%;
+	padding: 20px;
+	background: #c9e6d3; /* Verde suave */
+	border-radius: 8px;
+	color: #333;
+  }
+  
+  .main-table {
+	width: 90%;
+	max-width: 700px;
+	margin: 20px auto;
+	background: #fff; /* Fondo blanco */
+	border-radius: 10px;
+	border-collapse: collapse;
+  }
+  
+  .main-table th {
+	background: #4e9f79; /* Verde medio */
+	color: #fff; /* Blanco */
+  }
+  
+  .main-table td {
+	color: #555; /* Gris oscuro */
+  }
+  
+  /* ANCHO FIJO */
+  .w-450 {
+	width: 450px;
+  }
+  
+  .vh-100 {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  /* MEDIA QUERY: ADAPTACIONES MOVILES */
+  @media only screen and (max-width: 768px) {
+	.aside-main {
+	  display: none;
+	}
+	.main-blog {
+	  width: 100%;
+	  padding: 10px;
+	}
+	.main-blog-card {
+	  width: 100%;
+	  margin: 10px 0;
+	}
+  }
+  
