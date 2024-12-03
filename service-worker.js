@@ -7,13 +7,11 @@ self.addEventListener('install', (event) => {
         '/Blog/category.php',
         '/Blog/login.php',
         '/Blog/signup.php',
-        '/Blog/blog-view.php',
         '/Blog/admin-login.php',
         
         '/Blog/admin/Post.php',
         '/Blog/admin/Category.php',
         '/Blog/admin/Comment.php',
-        '/Blog/admin/logout.php',
         '/Blog/admin/post-add.php',
         '/Blog/admin/category-add.php',
         '/Blog/css/style.css',

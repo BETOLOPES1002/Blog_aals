@@ -2,7 +2,7 @@
     "name": "BLOG",
     "short_name": "BlogApp",
     "description": "Una plataforma para compartir artículos y blogs.",
-    "start_url": "/",
+    "start_url": "/Blog/blog.php",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
